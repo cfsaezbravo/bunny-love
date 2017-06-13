@@ -1,0 +1,118 @@
+body{
+	background-color: rgb(236, 247, 251);
+}
+
+header{
+	background-color: rgb(3, 127, 153);
+	width: 100%;
+	max-width: 1400px;
+	height: 70px;
+	justify-content: center;
+	
+}
+
+.menu > ul li{
+	float: right;
+	display: inline-block;
+	list-style: none;
+}
+
+.menu ul{
+	    display: inline-block;
+    margin-left: 260px;
+}
+.menu li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.logo a{
+	color: white;
+	text-decoration: none;
+	margin-left: 0px;
+    margin-top: 24px;
+    display: inline-block;
+    font-size: 22px;
+	color: #FF7673;
+}
+
+/* FOTO GRANDE */
+
+.fotogrande{
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    height: 297px;
+    margin-left: 6%;
+    justify-content: center;
+}
+
+#softbunny{
+	background-color: rgba(3, 127, 153,0.8);
+	width: 72%;
+	height: 268px;
+	margin-top:14px;
+	text-align: center;
+}
+
+#softbunny h2{
+	color: #FF7673;
+	font-size: 68px;
+	margin-top: 67px;
+}
+
+#softbunny p{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	display: inline-block;
+}
+/* SECCION FOTOS PEQUEÑAS */ 
+.section{
+	background-color: white;
+    width: 85%;
+    margin-left: 6%;
+}
+/* SECTION BUNNY HEAD */
+
+.bunnyhead{
+
+	width: 100%;
+    height: 74px;
+    margin-top: 10px;
+}
+
+.bunnyimg{
+	background-image: url(../img/bunny-head.png);
+	background-size: 128px;
+    background-repeat: repeat-x;
+    width: 100%;
+}
+
+
+/* FOOTER */
+
+footer{
+	background-color: rgb(3, 127, 153);
+	width: 100%;
+	height: 170px;
+	border-top: 2px solid coral;
+	justify-content: center;
+}
+
+footer p{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+    margin-top: 79px;
+    font-size: 14px;
+
+}
